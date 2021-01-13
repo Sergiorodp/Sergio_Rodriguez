@@ -9,7 +9,7 @@ export default css`
 }
 
 .image{
-    height:20vh;
+    height:10vh;
     width:25vw;
     /* background:red; */
     margin-bottom: 10vh; 
@@ -17,11 +17,11 @@ export default css`
 
 .button-container{
     width:25vw;
-    height:85vh;
+    height:83vh;
     background:linear-gradient(rgba(0, 0, 0, 0) 0%,
     rgb(255, 255, 255,.2) 20%, rgb(255, 255, 255) 50%);
     margin-top:15vh;
-    padding-top:40vh;
+    padding-top:22vw;
     /* background:red; */
     display:flex;
     flex-direction:column;
@@ -71,8 +71,9 @@ export default css`
 
 .fa-footer{
     display:flex;
-    margin:0 6vw;
-    padding-top:4.5vh;
+    /* background:blue; */
+    margin:0 5vw;
+    padding-top:3vh;
     justify-content:space-between;
     /* background:red; */
 }
