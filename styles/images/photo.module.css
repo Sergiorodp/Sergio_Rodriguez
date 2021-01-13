@@ -1,0 +1,9 @@
+.photo{
+    width: 30vw;
+    height: 70vh;
+    border-radius: 10px 0 0 0;
+    background-image: url('../../public/images/complete.jpeg');
+    background-size: cover;
+    margin-bottom: 5vh;
+    background-position: bottom;
+}
