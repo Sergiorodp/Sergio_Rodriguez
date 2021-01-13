@@ -18,14 +18,15 @@ export default css`
 .button-container{
     width:25vw;
     height:83vh;
+    padding-top:15vw;
     background:linear-gradient(rgba(0, 0, 0, 0) 0%,
     rgb(255, 255, 255,.2) 20%, rgb(255, 255, 255) 50%);
-    margin-top:15vh;
-    padding-top:22vw;
+    margin-top:18vh;
     /* background:red; */
     display:flex;
     flex-direction:column;
     align-items:center;
+    justify-content:center;
 }
 
 .card-main-container button{
@@ -72,13 +73,14 @@ export default css`
 .fa-footer{
     display:flex;
     /* background:blue; */
-    margin:0 5vw;
-    padding-top:3vh;
-    justify-content:space-between;
+    /* margin:0 5vw; */
+    justify-content:center;
+    padding-top:4vh;
     /* background:red; */
 }
 
 .fa-footer span{
+    padding: 0 5px;
     color:${colorsShy.grey};
 }
 

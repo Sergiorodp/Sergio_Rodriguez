@@ -56,14 +56,14 @@ export default css`
     place-content:center;
     position:absolute;
     width:10vw;
-    border-radius:3px;
+    border-radius:.3vw;
     border-right:0px solid seashell;
     transition: .15s ease-in-out;
 }
 
 .nav-list-item a:hover{
     color: ${colorsShy.blue} ;
-    border-right: 4px solid ${colorsShy.blue};
+    border-right: .3vw solid ${colorsShy.blue};
     /* border-left:4px solid seashell;   */
 }
 
