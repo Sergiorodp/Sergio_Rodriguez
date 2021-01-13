@@ -1,5 +1,6 @@
 export const colorsShy = {
     white : '#ffffff',
     back : '#fafafa',
-    blue : '#6E75F5'
+    blue : '#6E75F5',
+    grey : '#666'
 }

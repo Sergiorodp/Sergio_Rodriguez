@@ -9,44 +9,81 @@ export default css`
 }
 
 .image{
-    height:25vh;
-    width:30vw;
+    height:20vh;
+    width:25vw;
     /* background:red; */
     margin-bottom: 10vh; 
 }
 
 .button-container{
-    width:30vw;
-    height:100%;
+    width:25vw;
+    height:85vh;
     background:linear-gradient(rgba(0, 0, 0, 0) 0%,
-    rgb(255, 255, 255,.2) 30%, rgb(255, 255, 255) 70%);
-    margin-top:20vh;
+    rgb(255, 255, 255,.2) 20%, rgb(255, 255, 255) 50%);
+    margin-top:15vh;
     padding-top:40vh;
+    /* background:red; */
     display:flex;
     flex-direction:column;
     align-items:center;
 }
 
 .card-main-container button{
-    margin:3vh 0;
-    width:20vw;
+    margin:1.2vh 0;
+    width:18vw;
     border: 0;
     border-radius:10px;
     color:seashell;
     background:#000000;
     cursor: pointer;
     padding: 10px 24px;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     user-select: none;
     transition: .2s ease-in-out;
     /* pointer-events: none; */
+}
+
+.main-info-container{
+    display:grid;
+    place-content:center;
+    /* background:red; */
+}
+
+.info-container h3{
+    color:${colorsShy.grey};
+    padding-top:8px;
+    font-size:15px;
+    font-weight:400;
+}
+
+.info-container{
+    text-align:center;
+    margin-bottom:4vh;
+    width:18vw;
 }
 
 .card-main-container button:hover,
 .card-main-container button:focus,
 .card-main-container button:active{
     background:${colorsShy.blue};
+}
+
+.fa-footer{
+    display:flex;
+    margin:0 6vw;
+    padding-top:4.5vh;
+    justify-content:space-between;
+    /* background:red; */
+}
+
+.fa-footer span{
+    color:${colorsShy.grey};
+}
+
+.fa-footer span:hover{
+    color:${colorsShy.blue};
+    /* background:red; */
 }
 
 `
