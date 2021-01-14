@@ -7,7 +7,6 @@ const options = ["General", "About Me", "proyects", "Contact"]
 
 const General = createRef(), AboutMe = createRef(), Proyects = createRef(), Contact = createRef()
 
-
 const references = [General,AboutMe,Proyects,Contact]
 
 export function Selected({refNum = 0}){
