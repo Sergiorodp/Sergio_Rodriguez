@@ -1,5 +1,4 @@
 import styles from './styles'
-import Link from 'next/link'
 import { createRef } from 'react'
 
 import { goToSection } from '../../pages/index'
@@ -31,16 +30,16 @@ export default function Nav(){
             <div className = "logo"><p>Sergio</p><p>Rodriguez</p></div>
             <div className = 'options-container'><ul className = "list-container">
             <li ref = {General} className = "nav-list-item" onClick = {goToSection}>
-                <Link href="#General"><a titte = "General"><span>General</span></a></Link>
+                <a href="#General" titte = "General"><span>General</span></a>
             </li>
             <li ref = {AboutMe} className = "nav-list-item">
-                <Link href="#AboutMe"><a titte = "About Me"><span>About Me</span></a></Link>
+                <a href="#AboutMe" titte = "About Me"><span>About Me</span></a>
             </li>
             <li ref = {Proyects} className = "nav-list-item">
-                <Link href="#Proyects"><a titte = "proyects"><span>Proyects</span></a></Link>
+                <a href="#Proyects" titte = "proyects"><span>Proyects</span></a>    
             </li>
             <li ref = {Contact} className = "nav-list-item">
-                <Link href="#Contact"><a titte = "Contact"><span>Contact</span></a></Link>
+                <a  href="#Contact" titte = "Contact"><span>Contact</span></a>
             </li>
             </ul></div>
             <div className = "footer">powered by <p>Sergio</p></div>

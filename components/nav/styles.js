@@ -67,9 +67,11 @@ export default css`
     /* border-left:4px solid seashell;   */
 }
 
-.active a{
-    color: ${colorsShy.blue} ;
-    border-right: 5px solid ${colorsShy.blue};
+@media (min-width: 1100px){
+    .active a{
+        color: ${colorsShy.blue} ;
+        border-right: 5px solid ${colorsShy.blue};
+    }
 }
 
 .footer{

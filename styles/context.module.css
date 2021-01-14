@@ -20,6 +20,7 @@
     background: rgb(110, 117, 245,.8);
 }
 
+
 .textContainer{
     padding-top: 50px;
     width: 80%;
@@ -34,4 +35,10 @@
 .textContainer p{
     padding: 10px 0;
     font-size: 17px;
+}
+
+@media (max-width: 1025px){
+    .contextMainContainer{
+        scroll-margin-top: 50vh;
+    }
 }
