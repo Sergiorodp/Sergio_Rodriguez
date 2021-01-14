@@ -17,11 +17,11 @@ export default css`
 
 .button-container{
     width:25vw;
-    height:83vh;
-    padding-top:15vw;
+    height:100%;
+    padding-top:250px;
     background:linear-gradient(rgba(0, 0, 0, 0) 0%,
     rgb(255, 255, 255,.2) 20%, rgb(255, 255, 255) 50%);
-    margin-top:18vh;
+    margin-top:19vh;
     /* background:red; */
     display:flex;
     flex-direction:column;

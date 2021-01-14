@@ -5,7 +5,7 @@ import styles from '../../styles/Home.module.css'
 import Nav from '../../components/nav/index'
 import Info from '../../components/aboutMe/index'
 
-export default function Layout({ children,tittle }){
+export default function Layout({ children,tittle,navRef }){
     return(
         <div className={styles.container}>
             <Head>

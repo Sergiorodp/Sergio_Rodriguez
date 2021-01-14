@@ -4,6 +4,7 @@ import { colorsShy } from '../styleLayout'
 export default css`
 
 .main-aboutme-container{
+    z-index:600;
     display:flex;
     justify-content:center;
     height:100vh;

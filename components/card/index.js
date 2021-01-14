@@ -1,5 +1,4 @@
 import styles from './styles'
-import Image from 'next/image'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

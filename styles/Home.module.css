@@ -23,6 +23,8 @@
  }
 
  .contextContainer{
+   display: flex;
+   justify-content: center;
    width: 65vw;
    z-index: 100;
    background: #fafafa;
@@ -33,6 +35,12 @@
     z-index: 500;
    background: #fafafa;
  }
+
+ .active-nav{
+  color: rgb(110, 117, 245,.8) ;
+  border-right: .3vw solid rgb(110, 117, 245,.8);
+  /* border-left:4px solid seashell;   */
+}
 
 
 .footer {

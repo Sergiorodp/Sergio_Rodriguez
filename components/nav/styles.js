@@ -67,6 +67,11 @@ export default css`
     /* border-left:4px solid seashell;   */
 }
 
+.active a{
+    color: ${colorsShy.blue} ;
+    border-right: .3vw solid ${colorsShy.blue};
+}
+
 .footer{
     display:grid;
     place-content:center;
