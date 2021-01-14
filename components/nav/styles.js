@@ -63,13 +63,13 @@ export default css`
 
 .nav-list-item a:hover{
     color: ${colorsShy.blue} ;
-    border-right: .3vw solid ${colorsShy.blue};
+    border-right: 5px solid ${colorsShy.blue};
     /* border-left:4px solid seashell;   */
 }
 
 .active a{
     color: ${colorsShy.blue} ;
-    border-right: .3vw solid ${colorsShy.blue};
+    border-right: 5px solid ${colorsShy.blue};
 }
 
 .footer{

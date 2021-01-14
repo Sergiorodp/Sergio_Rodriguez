@@ -5,6 +5,7 @@
     width: 64.2vw;
     display: flex;
     justify-content: center;
+    scroll-behavior: smooth;
 }
 
 .contextMainContainer::-webkit-scrollbar{
