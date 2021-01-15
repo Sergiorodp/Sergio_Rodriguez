@@ -17,6 +17,7 @@ export default css`
 .logo{
     font-weight: 700;
     display:grid;
+    /* background:black; */
     place-content:center;
     height:100%;
     /* background:red; */

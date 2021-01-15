@@ -1,7 +1,7 @@
 import styles from './styles'
 import { createRef } from 'react'
 
-import { goToSection } from '../../pages/index'
+import LogoSergio from '../logo'
 
 
 const options = ["General", "About Me", "proyects", "Contact"] 
@@ -27,9 +27,10 @@ export default function Nav(){
     return(
         <>
         <div className = "main-nav-container">
-            <div className = "logo"><p>Sergio</p><p>Rodriguez</p></div>
+            <div className = "logo"><LogoSergio width = {60} height = {60}/></div>
+
             <div className = 'options-container'><ul className = "list-container">
-            <li ref = {General} className = "nav-list-item" onClick = {goToSection}>
+            <li ref = {General} className = "nav-list-item">
                 <a href="#General" titte = "General"><span>General</span></a>
             </li>
             <li ref = {AboutMe} className = "nav-list-item">
