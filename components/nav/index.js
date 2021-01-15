@@ -27,7 +27,9 @@ export default function Nav(){
     return(
         <>
         <div className = "main-nav-container">
-            <div className = "logo"><LogoSergio width = {60} height = {60}/></div>
+            <div className = "logo">
+                <LogoSergio width = {60} height = {60}/>
+                </div>
 
             <div className = 'options-container'><ul className = "list-container">
             <li ref = {General} className = "nav-list-item">

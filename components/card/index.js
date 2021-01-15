@@ -1,15 +1,16 @@
 import styles from './styles'
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import Linkedin from '../brands/linkedin'
+import Instagram from '../brands/insta'
+import Twitter from '../brands/twitter'
 
 import Photo from '../../styles/images/photo.module.css'
 import { colorsShy } from '../styleLayout'
 
-library.add(fab)
+const sizeBrand = 27
 
 export default function Card(){
+    
     return(
         <>
         <div className = "card-main-container">
@@ -23,14 +24,12 @@ export default function Card(){
                         <button>Contact me</button>
                         <button>Dowload curriculum</button>
                         <footer className = "fa-footer">
-                            <span><a href = 'https://www.instagram.com/sergioandrod_/' target="_blank" rel="noopener noreferrer">< FontAwesomeIcon icon={['fab','instagram']}  size="lg" /></a></span>
-                            <span><a href = '/' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon = {['fab','twitter']} size="lg" /></a></span>
-                            <span><a href = '/' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon = {['fab','linkedin']}  size="lg"/></a></span>
+                            <span><a href = 'https://www.instagram.com/sergioandrod_/' target="_blank" rel="noopener noreferrer">
+                            <Instagram width = {sizeBrand} height = {sizeBrand}/></a></span>
+                            <span><a href = '/' target="_blank" rel="noopener noreferrer"><Twitter width = {sizeBrand} height = {sizeBrand}/></a></span>
+                            <span><a href = '/' target="_blank" rel="noopener noreferrer"><Linkedin width = {sizeBrand} height = {sizeBrand}/> </a></span>
                         </footer>
                     </div>
-                </div>
-                <div className = "social-media-container">
-                    
                 </div>
             </div>
         </div>

@@ -70,17 +70,20 @@ export default css`
     background:${colorsShy.blue};
 }
 
+
+
 .fa-footer{
     display:flex;
-    /* background:blue; */
+    /* background:black; */
     /* margin:0 5vw; */
     justify-content:center;
     padding-top:4vh;
+    /* height:50vh; */
     /* background:red; */
 }
 
 .fa-footer span{
-    padding: 0 5px;
+    padding: 0 10px;
     color:${colorsShy.grey};
 }
 
