@@ -10,7 +10,7 @@ export default function Layout({ children,tittle,navRef }){
         <div className={styles.container}>
             <Head>
                 <title>Sergio Rodriguez | Desarrollador</title>
-                <link rel="icon" href="/logoTrans.png" />
+                <link rel="icon" href="/LogoTrans.png" />
                 
             </Head>
   
