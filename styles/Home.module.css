@@ -1,39 +1,34 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
 }
 
 .main {
-  min-width: 100vw;
+  min-width: 90vw;
   min-height: 100vh;
   display: grid;
+  justify-content: center;
   /* background: seagreen; */
-  grid-template-columns: 0.1fr 0.65fr 0.25fr;
+  grid-template-columns: 6vw 94vw;
 }
 
  /* content */
 
  .navigationContainer{
+   grid-column: 1/2;
    height: 100vh;
    z-index:500;
+   background: black;
  }
 
  .contextContainer{
+   grid-column: 2/3;
    display: flex;
    justify-content: center;
-   width: 65vw;
    z-index: 100;
    background: #fafafa;
-   /* background: brown; */
- }
 
- .infoContainer{
-    z-index: 500;
-   background: #fafafa;
+   /* background: rgb(110, 117, 245,.8); */
+   /* background: brown; */
  }
 
  .active-nav{

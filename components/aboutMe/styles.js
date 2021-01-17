@@ -6,11 +6,12 @@ export default css`
 .main-aboutme-container{
     z-index:600;
     display:flex;
+    width:26vw;
     justify-content:center;
-    height:100vh;
-    border-radius: 20px  0  0 20px;
-    background:${colorsShy.white};
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    height:80vh;
+    border-radius: 20px;
+    background:black;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
     /* background:red; */
 }
 

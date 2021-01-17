@@ -12,6 +12,8 @@ const references = [General,AboutMe,Proyects,Contact]
 
 export function Selected({refNum = 0}){
 
+    if (references[refNum].current){  
+    
     references[refNum].current.classList.add('active')
 
     for (let i = 0; i < references.length ; i++){
@@ -19,6 +21,7 @@ export function Selected({refNum = 0}){
             references[i].current.classList.remove('active')
         }
     }
+}
 
 }
 
@@ -28,8 +31,8 @@ export default function Nav(){
         <>
         <div className = "main-nav-container">
             <div className = "logo">
-                <LogoSergio width = {60} height = {60}/>
-                </div>
+                <LogoSergio width = {50} height = {50} fill = {"#ffffff"} />
+            </div>
 
             <div className = 'options-container'><ul className = "list-container">
             <li ref = {General} className = "nav-list-item">

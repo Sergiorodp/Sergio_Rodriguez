@@ -5,40 +5,40 @@ export default css`
 
 .card-main-container{
     display:flex;
+    /* width:100%;  */
     flex-direction:column;
+    background:black;
+    /* position:absolute; */
+    border-radius:20px;
 }
 
 .image{
     height:10vh;
-    width:25vw;
-    /* background:red; */
     margin-bottom: 10vh; 
 }
 
 .button-container{
-    width:25vw;
+    /* width:100%; */
     height:100%;
     padding-top:250px;
     background:linear-gradient(rgba(0, 0, 0, 0) 0%,
-    rgb(255, 255, 255,.2) 20%, rgb(255, 255, 255) 50%);
-    margin-top:19vh;
-    /* background:red; */
+    rgb(0, 0, 0,.2) 20%, rgb(0, 0, 0) 50%);
+    margin: 20% 0 0 0;
     display:flex;
     flex-direction:column;
-    align-items:center;
+    /* align-items:center; */
     justify-content:center;
 }
 
 .card-main-container button{
     margin:1.2vh 0;
-    width:18vw;
     border: 0;
     border-radius:10px;
-    color:seashell;
-    background:#000000;
+    color:black;
+    background:white;
     cursor: pointer;
     padding: 10px 24px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     user-select: none;
     transition: .2s ease-in-out;
@@ -48,7 +48,16 @@ export default css`
 .main-info-container{
     display:grid;
     place-content:center;
+    margin:0 10%;
     /* background:red; */
+}
+
+.info-container{
+    font-size:20px;
+    text-align:center;
+    color:white;
+    margin-bottom:5%;
+    /* width:18vw; */
 }
 
 .info-container h3{
@@ -58,11 +67,6 @@ export default css`
     font-weight:400;
 }
 
-.info-container{
-    text-align:center;
-    margin-bottom:4vh;
-    width:18vw;
-}
 
 .card-main-container button:hover,
 .card-main-container button:focus,
@@ -77,8 +81,7 @@ export default css`
     /* background:black; */
     /* margin:0 5vw; */
     justify-content:center;
-    padding-top:4vh;
-    /* height:50vh; */
+    padding-top:5%;
     /* background:red; */
 }
 
