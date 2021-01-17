@@ -3,7 +3,7 @@
     display:flex;
     overflow:hidden;
     justify-content:center;
-    background-image: url('../../public/fondoMain/fondoinicio.svg'); 
+    background-image: url('../../public/fondoMain/fondoMain.jpg'); 
      background-size: cover;
     /* background-position: bottom; */
 }
