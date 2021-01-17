@@ -12,9 +12,25 @@ a {
   text-decoration: none;
 }
 
+@font-face{
+  font-family:Prism-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/PrismRegular.woff');
+}
+
+@font-face{
+  src: url('../fonts/PrismRegular.woff');
+  font-family: Prism;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+  /* font-family: Prism; */
 }

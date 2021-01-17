@@ -1,8 +1,9 @@
 .mainSectionContainer{
     width:100%;
     display:flex;
+    overflow:hidden;
     justify-content:center;
-    background-image: url('../../public/fondoinicio.svg');
-    background-size: cover;
+    background-image: url('../../public/fondoMain/fondoinicio.svg'); 
+     background-size: cover;
     /* background-position: bottom; */
 }

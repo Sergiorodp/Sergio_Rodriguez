@@ -8,8 +8,9 @@ export default css`
 
 .principal-content-container{
     width:80%;
-    height:80%;
-    padding-top:10vh;
+    height:100%;
+    padding-top:6vh;
+    /* position:absolute; */
     /* background:red; */
     display:grid;
     grid-template-columns: 1fr 1fr;

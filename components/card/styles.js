@@ -23,7 +23,7 @@ export default css`
     padding-top:250px;
     background:linear-gradient(rgba(0, 0, 0, 0) 0%,
     rgb(0, 0, 0,.2) 20%, rgb(0, 0, 0) 50%);
-    margin: 20% 0 0 0;
+    margin: 25% 0 0 0;
     display:flex;
     flex-direction:column;
     /* align-items:center; */

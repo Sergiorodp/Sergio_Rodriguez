@@ -1,8 +1,9 @@
 .photo{
-    /* width: 25vw; */
-    height: 60vh;
+    width: 26vw;
+    height: 30vw;
     border-radius: 20px;
     background-image: url('../../public/images/completeV2.png');
-    background-size: cover;
-    background-position: bottom;
+    background-size:cover;
+    /* background-position: inherit; */
+    background-position:bottom;
 }
