@@ -6,6 +6,8 @@ export default css`
 .main-nav-container{
     display:grid;
     width:72%;
+    padding:3vh 0 0 0;
+    /* background:red; */
     grid-template-columns:  61vw 11vw;
     /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
 
