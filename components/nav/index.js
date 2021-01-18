@@ -1,5 +1,6 @@
 import styles from './styles'
 import { createRef } from 'react'
+import flagStyle from '../../styles/bandera/bandera.module.css'
 
 import LogoSergio from '../logo'
 
@@ -30,13 +31,13 @@ export default function Nav(){
     return(
         <>
         <div className = "main-nav-container">
-            <div className = "logo">
-                <LogoSergio width = {50} height = {50} fill = {"#ffffff"} />
+            <div className = {flagStyle.logo}>
+                <LogoSergio cl width = {45} height = {45} fill = {"#ffffff"} />
             </div>
 
             <div className = 'options-container'><ul className = "list-container">
             <li ref = {General} className = "nav-list-item">
-                <a href="#General" titte = "General"><span>General</span></a>
+                <a href="#Home" titte = "General"><span>Home</span></a>
             </li>
             <li ref = {AboutMe} className = "nav-list-item">
                 <a href="#AboutMe" titte = "About Me"><span>About Me</span></a>
@@ -45,10 +46,10 @@ export default function Nav(){
                 <a href="#Proyects" titte = "proyects"><span>Proyects</span></a>    
             </li>
             <li ref = {Contact} className = "nav-list-item">
-                <a  href="#Contact" titte = "Contact"><span>Contact</span></a>
+                <a  href="#More" titte = "Contact"><span>More</span></a>
             </li>
             </ul></div>
-            <div className = "footer">powered by <p>Sergio</p></div>
+            <div className = "footer"><button>Contact</button></div>
         </div>
         <style jsx>{styles}</style>
         </>

@@ -13,7 +13,7 @@ export default function Principal(){
                         <h2>Hi! my name is Sergio</h2>
                     </div>
                     <div className = "card-info-container">
-                        <Info/>
+                        {/* <Info/> */}
                     </div>
                 </div>
             </div>

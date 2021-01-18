@@ -8,20 +8,22 @@
   display: grid;
   justify-content: center;
   /* background: seagreen; */
-  grid-template-columns: 6vw 94vw;
+  grid-template-columns: 100vw;
 }
 
  /* content */
 
  .navigationContainer{
-   grid-column: 1/2;
-   height: 100vh;
-   z-index:500;
-   background: black;
+  position: fixed;
+  width: 100vw;
+  z-index:500;
+   /* background: black; */
+   display: flex;
+   justify-content: center;
  }
 
  .contextContainer{
-   grid-column: 2/3;
+   /* grid-column: 2/3; */
    display: flex;
    justify-content: center;
    z-index: 100;

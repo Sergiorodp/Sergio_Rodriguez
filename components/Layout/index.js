@@ -3,6 +3,7 @@ import styles from '../../styles/Home.module.css'
 
 //  Components
 import Nav from '../../components/nav/index'
+import Lateral from '../../components/LateralBar/index'
 
 export default function Layout({ children,tittle,navRef }){
     return(
@@ -12,9 +13,9 @@ export default function Layout({ children,tittle,navRef }){
                 <link rel="icon" href="/minilogo.ico" />
                 
             </Head>
-  
             <main className={styles.main}>
                 <nav className = {styles.navigationContainer}><Nav/></nav>
+                <Lateral/>
                 <div className = {styles.contextContainer}>
                     {children}
                 </div>
