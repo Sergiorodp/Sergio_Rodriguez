@@ -7,6 +7,7 @@ import useNearScreen from '../hooks/useNearScreen'
 import { Selected } from '../components/nav/index'
 
 import Principal from '../sections/main/main'
+import AboutMe from '../sections/aboutMe/about'
 
 const {menuRef} = ref()
 
@@ -48,6 +49,7 @@ export default function Home() {
     <Layout>  
       <section className = {styles.contextMainContainer}>
         <Principal/>
+        <AboutMe/>
       </section>
     </Layout>
   )

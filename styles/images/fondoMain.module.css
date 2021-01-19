@@ -1,8 +1,10 @@
 .mainSectionContainer{
-    width:100%;
+    widows: 100vw;
+    height: 130vh;
     display:flex;
     overflow:hidden;
-    justify-content:center;
+    flex-direction: column;
+    align-items: center;
     background-image: url('../../public/fondoMain/fondoMain.jpg'); 
      background-size: cover;
     /* background-position: bottom; */

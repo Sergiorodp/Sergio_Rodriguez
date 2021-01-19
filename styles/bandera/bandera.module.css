@@ -3,13 +3,7 @@
     display:flex;
     color: white;
     /* background:black; */
-    width:5vw;
-    left:15vw;
+    left:11.5vw;
+    max-width:1600px;
     height:170%;
-    justify-content:center;
-    padding-left: 2px;
-    position:absolute;
-    /* background-image: url('../../public/flag.svg'); */
-    /* background-size: cover; */
-    /* background-position: bottom; */
 }

@@ -4,15 +4,15 @@ import { colorsShy } from '../styleLayout/index'
 export default css`
 
 .main-nav-container{
-    display:grid;
-    width:72%;
+    display:flex;
+    width:74%;
+    max-width:1600px;
     padding:3vh 0 0 0;
     /* background:red; */
-    grid-template-columns:  61vw 11vw;
+    /* grid-template-columns:  61vw 11vw; */
     /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
 
 }
-
 
 
 .options-container{
@@ -80,8 +80,8 @@ export default css`
     margin:1.2vh 0;
     border: 0;
     border-radius:30px;
-    color:black;
-    background:white;
+    color:white;
+    background:black;
     cursor: pointer;
     padding: 10px 40px;
     font-size: 15px;
@@ -93,8 +93,8 @@ export default css`
 .footer button:hover,
 .footer button:focus,
 .footer button:active{
-    background:black;
-    color:white;
+    background:white;
+    color:black;
 }
 
 

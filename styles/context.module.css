@@ -3,15 +3,15 @@
     width: 100%;
     overflow-y: scroll;
     height: 100vh;
-    display: flex;
-    justify-content: center;
+    display: block;
+    /* flex-direction: column; */
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
 .contextMainContainer::-webkit-scrollbar{
     z-index: 100;
-    width: 6px;
+    width: 8px;
     border-radius: 100px;
     background: rgb(102, 102, 102,.25);
 }
@@ -19,7 +19,7 @@
 .contextMainContainer::-webkit-scrollbar-thumb{
     border-radius: 100px;
     background: rgb(110, 117, 245,.8);
-    background: white;
+    /* background: white; */
 }
 
 

@@ -8,7 +8,7 @@ export default css`
     display:flex;
     width:26vw;
     justify-content:center;
-    height:95%;
+    height:95%; 
     border-radius: 20px;
     background:black;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);

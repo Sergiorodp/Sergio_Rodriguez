@@ -3,7 +3,7 @@ export const colorsShy = {
     back : '#fafafa',
     blue : '#6E75F5',
     grey : '#666',
-    black:'#0000'
+    black:'#000000'
 }
 
 export const colorRed = {
