@@ -38,4 +38,10 @@ export default css`
     color:white;
 }
 
+@media (max-width: 860px){
+    .main-lateral-container{
+        visibility: hidden;
+    }
+}
+
 `

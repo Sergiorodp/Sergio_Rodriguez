@@ -48,6 +48,14 @@ export default function Bloque({children,pd, cl , title, background, color, line
                 width:3vw;
                 height:4px;
             }
+
+            @media (max-width: 750px){
+                .block-main-container{
+                    background:black;
+                    align-items:center;
+                }
+            }
+
             `}</style>
         </>
     )

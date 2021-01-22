@@ -102,4 +102,50 @@ export default css`
     font-weight: 700;
 }
 
+
+@media (max-width: 860px){
+    .main-nav-container{
+        width:85%;
+        padding:0;
+        margin:1vh 0 0 0;
+    }
+}
+
+@media (max-width: 750px){
+
+    .main-nav-container{
+        padding:0;
+    }
+
+    .options-container{
+        display:none;
+    }
+    .footer{
+        width:100%;
+        display:flex;
+        justify-content:flex-end;
+    }
+
+    .lines-container{
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:0 0 0 10vw;
+    }
+
+    .line-div{
+        width: 25px;
+        height: 3px;
+        background-color: ${colorsShy.white};
+        margin-top: 4px;
+        margin-bottom: 4px;
+        border-radius:9999px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .lines{
+        cursor:pointer;
+    }
+}
 `

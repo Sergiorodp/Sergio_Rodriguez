@@ -11,6 +11,10 @@ const General = createRef(), AboutMe = createRef(), Proyects = createRef(), Cont
 
 const references = [General,AboutMe,Proyects,Contact]
 
+
+const lineUp = createRef()
+const LineDown = createRef()
+
 export function Selected({refNum = 0}){
 
     if (references[refNum].current){  
@@ -50,6 +54,13 @@ export default function Nav(){
             </li>
             </ul></div>
             <div className = "footer"><button>Contact</button></div>
+            <div className = "lines-container">
+                <div className = "lines"> 
+                    <div className = "line-one line-div " ref = {lineUp} ></div>
+                    <div className = "line-two line-div" ></div>
+                    <div className = "line-tree line-div " ref={LineDown} ></div>
+                </div>
+            </div>
         </div>
         <style jsx>{styles}</style>
         </>

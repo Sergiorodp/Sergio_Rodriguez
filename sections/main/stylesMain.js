@@ -92,5 +92,18 @@ export default css`
     width:74%;
 }
 
+@media (max-width: 750px){
+    .principal-content-container{
+        height:100vh;
+    }
+
+    .features-container{
+        height:100vh;
+    }
+    .features-container div{
+        flex-direction:column;
+        width:100%;
+    }
+}
 
 `

@@ -8,4 +8,11 @@
     background-image: url('../../public/fondoMain/fondoMain.jpg'); 
      background-size: cover;
     /* background-position: bottom; */
+    
+}
+
+@media (max-width: 750px){
+    .mainSectionContainer{
+        height: 200vh;
+    }
 }
