@@ -1,4 +1,5 @@
 import Twitter from "../brands/twitter";
+import { colorsShy } from "../styleLayout";
 
 export default function Bloque({children,pd, cl , title, background, color, lineColor}){
     return(
@@ -53,6 +54,11 @@ export default function Bloque({children,pd, cl , title, background, color, line
                 .block-main-container{
                     background:black;
                     align-items:center;
+                    padding:0;
+                }
+
+                .line{
+                    background:${colorsShy.blue};
                 }
             }
 

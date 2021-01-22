@@ -36,7 +36,7 @@ export default function Nav(){
         <>
         <div className = "main-nav-container">
             <div className = {flagStyle.logo}>
-                <LogoSergio width = {45} height = {45} fill = {"#ffffff"} />
+                <LogoSergio width = {40} height = {40} fill = {"#ffffff"} />
             </div>
 
             <div className = 'options-container'><ul className = "list-container">

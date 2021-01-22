@@ -3,7 +3,7 @@
     display:flex;
     color: white;
     /* background:black; */
-    left:11.5vw;
+    justify-content: center;
+    align-items: center;
     max-width:1600px;
-    height:170%;
 }

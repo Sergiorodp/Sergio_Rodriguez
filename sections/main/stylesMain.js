@@ -95,14 +95,19 @@ export default css`
 @media (max-width: 750px){
     .principal-content-container{
         height:100vh;
+        padding-top:0;
     }
 
     .features-container{
         height:100vh;
-    }
+    }   
     .features-container div{
         flex-direction:column;
         width:100%;
+    }
+
+    .card-info-container{
+        visibility:hidden;
     }
 }
 
