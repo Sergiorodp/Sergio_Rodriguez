@@ -19,10 +19,10 @@ export default function Principal(){
                         <div>
                         <div className = 'subtitle-container'>
                             <div className = 'line-subtitle'></div>
-                            <h3>Welcome to my portafolio</h3>
+                            <h3>Welcome to my portafolio.</h3>
                         </div>
 
-                        <h2>Quality, Clarity & Creativity</h2>
+                        <h2>Quality, Clarity & Creativity.</h2>
             
                         <MyButton 
                         background = {colorsShy.black} 
@@ -43,7 +43,7 @@ export default function Principal(){
                         lineColor = {colorsShy.blue}
                         background = {colorsShy.black}
                         title = {'WEB DESING'}>
-                            <p>Hola como esta</p>
+                            {/* <p>Hola como esta</p> */}
                         </Bloque>
                         <Bloque 
                         pd = {' 0 0 0 6%'}
@@ -52,7 +52,7 @@ export default function Principal(){
                         lineColor = {colorsShy.blue}
                         background = {colorsShy.black}
                         title = {'FRONTEND'}>
-                            <p>Hola como esta</p>
+                            {/* <p>Hola como esta</p> */}
                         </Bloque>
                         <Bloque 
                         cl = {'center'}
@@ -60,7 +60,7 @@ export default function Principal(){
                         lineColor = {colorsShy.white}
                         background = {'none'}
                         title = {'BACKEND'}>
-                            <p>Hola como esta</p>
+                            {/* <p>Hola como esta</p> */}
                         </Bloque>
                         </div>
                     </secction>

@@ -53,8 +53,8 @@ export default function Bloque({children,pd, cl , title, background, color, line
             @media (max-width: 750px){
                 .block-main-container{
                     background:black;
-                    align-items:center;
-                    padding:0;
+                    align-items:initial;
+                    padding:0 0 0 8vw;
                 }
 
                 .line{

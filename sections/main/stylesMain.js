@@ -99,7 +99,7 @@ export default css`
     }
 
     .features-container{
-        height:100vh;
+        height:60vh;
     }   
     .features-container div{
         flex-direction:column;
@@ -108,6 +108,12 @@ export default css`
 
     .card-info-container{
         visibility:hidden;
+    }
+}
+
+@media (max-width: 361px){
+    .tittle-container h2{
+        font-size:60px;
     }
 }
 
