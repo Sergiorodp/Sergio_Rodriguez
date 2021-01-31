@@ -5,11 +5,24 @@ import { colorsShy } from '../../components/styleLayout/index'
 // import SvgMain from '../../components/fondosvg/main'
 import MyButton from '../../components/button/index'
 import Feature from '../../components/bloque/index'
+import { padding } from '../../components/nav/index'
 import Bloque from '../../components/bloque/index'
+import { createRef, useEffect } from 'react'
 // import me from './module.complete.png'
+import useNearScreen from '../../hooks/useNearScreen/index'
+import {Blur} from '../../components/Layout/index'
 
+const bloques = createRef()
 
 export default function Principal(){
+
+    const nearBlur = useNearScreen({ externalRef : bloques, distance : .5})
+
+    useEffect(()=>{
+        Blur({ inScreen : nearBlur.isNearScreen})
+        padding(nearBlur.isNearScreen)
+    },[nearBlur.isNearScreen])
+
     return(
         <>
             <div className = {fondo.mainSectionContainer}>
@@ -36,7 +49,7 @@ export default function Principal(){
                     </div>
                 </div>
                 <secction className = "features-container">
-                    <div>
+                    <div ref = {bloques}>
                         <Bloque 
                         cl = {'initial'}
                         color = {colorsShy.white}

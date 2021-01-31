@@ -11,7 +11,12 @@ export default css`
     /* background:red; */
     /* grid-template-columns:  61vw 11vw; */
     /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+    transition:0.15s ease-in-out;
 
+}
+
+.main-padding-container{
+    padding:0;
 }
 
 

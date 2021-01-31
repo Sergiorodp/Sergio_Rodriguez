@@ -14,6 +14,7 @@ const references = [General,AboutMe,Proyects,Contact]
 
 const lineUp = createRef()
 const LineDown = createRef()
+const mainContainer = createRef()
 
 export function Selected({refNum = 0}){
 
@@ -30,11 +31,28 @@ export function Selected({refNum = 0}){
 
 }
 
+export function padding(isNear){
+    if(isNear){
+
+        mainContainer.current.classList.add('main-padding-container')
+
+    }else{
+
+        try{
+            mainContainer.current.classList.remove('main-padding-container')
+        }catch{
+            console.log('Padding')
+        }
+
+    }
+}
+
+
 export default function Nav(){
 
     return(
         <>
-        <div className = "main-nav-container">
+        <div className = "main-nav-container" ref = {mainContainer}>
             <div className = {flagStyle.logo}>
                 <LogoSergio width = {40} height = {40} fill = {"#ffffff"} />
             </div>
