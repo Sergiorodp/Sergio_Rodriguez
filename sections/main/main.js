@@ -64,7 +64,7 @@ export default function Principal(){
                         color = {colorsShy.white}
                         lineColor = {colorsShy.blue}
                         background = {colorsShy.black}
-                        title = {'PRODUCT DESING'}>
+                        title = {'PRODUCT DESIGN'}>
                             {/* <p>Hola como esta</p> */}
                         </Bloque>
                         <Bloque 
