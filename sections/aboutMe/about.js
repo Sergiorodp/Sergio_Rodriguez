@@ -15,11 +15,6 @@ export default function AboutMe(){
                 section = {'About Me'}
                 title = {'Sergio Rodriguez'}
                 info = {'Electronic engineer'}>
-                    {/* <p>My name I'm an web designer in bogotá colombia, I like study new tecnologies from develop of many proyects in any area. Contratame xd </p> */}
-                    <p>
-                        Hello.
-                    </p> 
-                    <br></br>
                     <p>
                         I'am an electronic engineer student, with experience
                         programming in python, C++, C, Java, JavaScript, html and css. Knowledge in IDEs

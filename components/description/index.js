@@ -42,7 +42,7 @@ export default function Description({children,section,title,info}){
             }
 
             .info-container{
-                margin:40px 0;
+                margin : 4% 0;
                 font-size:20px;
             }
 
