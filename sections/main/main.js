@@ -55,7 +55,7 @@ export default function Principal(){
                         color = {colorsShy.white}
                         lineColor = {colorsShy.blue}
                         background = {colorsShy.black}
-                        title = {'WEB DESING'}>
+                        title = {'AI & ML'}>
                             {/* <p>Hola como esta</p> */}
                         </Bloque>
                         <Bloque 
@@ -64,7 +64,7 @@ export default function Principal(){
                         color = {colorsShy.white}
                         lineColor = {colorsShy.blue}
                         background = {colorsShy.black}
-                        title = {'FRONTEND'}>
+                        title = {'PRODUCT DESING'}>
                             {/* <p>Hola como esta</p> */}
                         </Bloque>
                         <Bloque 
@@ -72,7 +72,7 @@ export default function Principal(){
                         color = {colorsShy.white}
                         lineColor = {colorsShy.white}
                         background = {'none'}
-                        title = {'BACKEND'}>
+                        title = {'WEB DEV'}>
                             {/* <p>Hola como esta</p> */}
                         </Bloque>
                         </div>

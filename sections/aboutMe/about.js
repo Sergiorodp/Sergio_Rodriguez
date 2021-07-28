@@ -14,13 +14,17 @@ export default function AboutMe(){
                 <DesLayoyt 
                 section = {'About Me'}
                 title = {'Sergio Rodriguez'}
-                info = {'Web Developer'}>
+                info = {'Electronic engineer'}>
                     {/* <p>My name I'm an web designer in bogotá colombia, I like study new tecnologies from develop of many proyects in any area. Contratame xd </p> */}
                     <p>
-                    Hello. I'am an electronic engineer student, with experience
-programming in python, C++, C, Java, JavaScript, html and css. Knowledge in IDEs
-and software development like stm32, atmel studio, Altium designer and QT. Interested
-in continuous learning, solving problems and developing new technology.
+                        Hello.
+                    </p> 
+                    <br></br>
+                    <p>
+                        I'am an electronic engineer student, with experience
+                        programming in python, C++, C, Java, JavaScript, html and css. Knowledge in IDEs
+                        and software development like stm32, atmel studio, Altium designer and QT. with interest 
+                        in continuous learning, problems resolution and development of new technology.
                     </p>
                 </DesLayoyt>
             </div>
