@@ -15,7 +15,13 @@ export default function AboutMe(){
                 section = {'About Me'}
                 title = {'Sergio Rodriguez'}
                 info = {'Web Developer'}>
-                    <p>My name I'm an web designer in bogotá colombia, I like study new tecnologies from develop of many proyects in any area. Contratame xd </p>
+                    {/* <p>My name I'm an web designer in bogotá colombia, I like study new tecnologies from develop of many proyects in any area. Contratame xd </p> */}
+                    <p>
+                    Hello. I'am an electronic engineer student, with experience
+programming in python, C++, C, Java, JavaScript, html and css. Knowledge in IDEs
+and software development like stm32, atmel studio, Altium designer and QT. Interested
+in continuous learning, solving problems and developing new technology.
+                    </p>
                 </DesLayoyt>
             </div>
 
@@ -87,6 +93,10 @@ export default function AboutMe(){
             }
 
             @media (max-width: 750px){
+                
+                .main-aboutme-container{
+                    height:125vh;
+                }
 
                 .info-container{
                     display:grid;
