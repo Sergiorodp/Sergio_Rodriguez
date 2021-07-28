@@ -16,8 +16,7 @@ export default function AboutMe(){
                 title = {'Sergio Rodriguez'}
                 info = {'Electronic engineer'}>
                     <p>
-                        I'am an electronic engineer student, with experience
-                        programming in python, C++, C, Java, JavaScript, html and css. Knowledge in IDEs
+                        I'am an electronic engineer student, with programing experience in python, C++, C, Java, JavaScript, html and css. Knowledge in IDEs
                         and software development like stm32, atmel studio, Altium designer and QT. with interest 
                         in continuous learning, problems resolution and development of new technology.
                     </p>
