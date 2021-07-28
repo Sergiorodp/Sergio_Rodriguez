@@ -62,7 +62,7 @@ export default css`
     width:100%;
     height:100%;
     /* background:yellow; */
-    /* overflow:scroll; */
+    overflow:hidden;
 }
 
 .foto{
@@ -83,6 +83,7 @@ export default css`
     background:linear-gradient(90deg,
     rgb(0, 0, 0) 50%, rgb(0, 0, 0,0) 51%);
     height:100%;
+    min-height : 300px;
     grid-template-columns: repeat(3,1fr);
 }
 
@@ -91,6 +92,21 @@ export default css`
     display:flex;
     width:74%;
 }
+
+@media (max-width: 860px){
+    .principal-content-container{
+        width: 84%;
+    }
+
+    .features-container{
+        min-height : 200px;
+    }
+
+    .features-container div{
+        width: 84%;
+    }
+}
+
 
 @media (max-width: 750px){
     .principal-content-container{

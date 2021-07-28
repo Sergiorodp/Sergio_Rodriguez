@@ -1,6 +1,6 @@
 .mainSectionContainer{
     widows: 100vw;
-    height: 130vh;
+    /* height: 130vh; */
     display:flex;
     overflow:hidden;
     flex-direction: column;

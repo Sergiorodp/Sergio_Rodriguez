@@ -39,7 +39,7 @@ export default function Bloque({children,pd, cl , title, background, color, line
 
             .title p{
                 font-weight:700;
-                font-size:30px;
+                font-size:2.5vw;
             }
 
             .line{
@@ -60,6 +60,12 @@ export default function Bloque({children,pd, cl , title, background, color, line
                 .line{
                     background:${colorsShy.blue};
                 }
+
+                .title p{
+                    font-weight:700;
+                    font-size:30px;
+            }   
+
             }
 
             `}</style>

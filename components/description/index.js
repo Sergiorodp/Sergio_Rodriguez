@@ -19,6 +19,7 @@ export default function Description({children,section,title,info}){
             .main-description-container{
                 display:flex;
                 flex-direction:column;
+                
             }
 
             .tittle{

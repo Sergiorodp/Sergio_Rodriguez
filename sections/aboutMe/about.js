@@ -6,7 +6,11 @@ export default function AboutMe(){
         <>
         <section className = "main-aboutme-container">
             <div className = "info-container">
-                <div className = "image-container"><p>FOTO</p></div>
+                <div className = "image-container">
+                    <div className = "image-frame" >
+                        <img src = '/assets/happy_sergio.png'></img>
+                    </div>
+                </div>
                 <DesLayoyt 
                 section = {'About Me'}
                 title = {'Sergio Rodriguez'}
@@ -41,14 +45,39 @@ export default function AboutMe(){
             .info-container{
                 color:white;
                 display:grid;
-                grid-template-columns:repeat(2,1fr);
+                grid-template-columns:45% 55%;
                 justify-content:center;
                 align-items:center;
-                
+                margin: 0 12%;
             }
 
             .about-me-info{
                 color:white;
+            }
+
+            .image-container{
+                width : 100%;
+                height : 100%;
+                display: flex; 
+                align-items: center;
+                
+            }
+
+            .image-frame{
+                width: 80%;
+                height : 90%;
+                border-radius: 10px;
+                background: white;
+            }
+
+            .image-frame img{
+                width: 100%;
+                height : 100%;
+                border-radius: 10px;
+                left:10px;
+                top:10px;
+                position:relative;
+                object-fit : cover;
             }
 
             @media (max-width: 860px){
@@ -59,6 +88,7 @@ export default function AboutMe(){
                 .info-container{
                     display:flex;
                     padding:0 9%;
+                    margin : 0;
                 }
             }
 
