@@ -48,7 +48,7 @@ export default function AboutMe(){
                 grid-template-columns:45% 55%;
                 justify-content:center;
                 align-items:center;
-                margin: 0 12%;
+                width:74%;
             }
 
             .about-me-info{
@@ -81,15 +81,24 @@ export default function AboutMe(){
             }
 
             @media (max-width: 860px){
-                .image-container{
-                    display:none;
+                .info-container{
+                    width:84%;
                 }
+            }
+
+            @media (max-width: 750px){
 
                 .info-container{
-                    display:flex;
-                    padding:0 9%;
-                    margin : 0;
+                    display:grid;
+                    height:100%;
+                    grid-template-columns:none;
+                    grid-template-rows: 50% 50%;
                 }
+
+                .image-container{
+                    justify-content:center;
+                }
+
             }
 
             `}</style>

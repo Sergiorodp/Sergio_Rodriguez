@@ -19,7 +19,6 @@ export default function Description({children,section,title,info}){
             .main-description-container{
                 display:flex;
                 flex-direction:column;
-                
             }
 
             .tittle{
@@ -53,6 +52,30 @@ export default function Description({children,section,title,info}){
                 margin:0 15px 0 0;
                 background:${colorsShy.blue};
                 border-radius:9999px;
+            }
+
+            @media (max-width: 750px){
+
+                .tittle h2{
+                    font-size:1.2rem;
+                }
+
+                h3{
+                    margin:2% 0;
+                    font-size:2rem;
+                }
+
+                p{
+                font-size:1.2rem;
+                color:${colorsShy.blue};
+                }
+
+                .info-container{
+                    margin:8% 0;
+                    font-size:1.1rem;
+                }
+
+
             }
             
             `}</style>
