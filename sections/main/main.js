@@ -16,18 +16,18 @@ const bloques = createRef()
 
 export default function Principal(){
 
-    const nearBlur = useNearScreen({ externalRef : bloques, distance : .5})
+    const nearBlur = useNearScreen({ externalRef : bloques, distance : 1})
 
     useEffect(()=>{
-        Blur({ inScreen : nearBlur.isNearScreen})
-        padding(nearBlur.isNearScreen)
+        Blur({ inScreen : !nearBlur.isNearScreen})
+        padding(!nearBlur.isNearScreen)
     },[nearBlur.isNearScreen])
 
     return(
         <>
             <div className = {fondo.mainSectionContainer}>
                 {/* <SvgMain width = '1700px'/> */}
-                <div className = "principal-content-container">
+                <section className = "principal-content-container" ref = {bloques}>
                     <div className = "tittle-container">
                         <div>
                         <div className = 'subtitle-container'>
@@ -47,9 +47,9 @@ export default function Principal(){
                     <div className = "card-info-container">
                         <img className = "foto" src = '/circleMe.png' alt = 'photo'/>
                     </div>
-                </div>
-                <secction className = "features-container">
-                    <div ref = {bloques}>
+                </section>
+                <section className = "features-container">
+                    <div >
                         <Bloque 
                         cl = {'initial'}
                         color = {colorsShy.white}
@@ -76,7 +76,7 @@ export default function Principal(){
                             {/* <p>Hola como esta</p> */}
                         </Bloque>
                         </div>
-                    </secction>
+                    </section>
             </div>
             <style jsx>{styles}</style>
         </>

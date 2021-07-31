@@ -9,8 +9,6 @@ import { Selected } from '../components/nav/index'
 import Principal from '../sections/main/main'
 import AboutMe from '../sections/aboutMe/about'
 
-const {menuRef} = ref()
-
 function ref(){
   const menuRef = [] 
   for (let i = 0; i < 4 ; i++){
@@ -19,6 +17,7 @@ function ref(){
   return {menuRef}
 }
 
+const {menuRef} = ref()
 
 function Near(){
   const menuNear = [] 
@@ -46,11 +45,13 @@ export default function Home() {
 
 
   return (
-    <Layout>  
-      <section className = {styles.contextMainContainer}>
-        <Principal/>
-        <AboutMe/>
-      </section>
-    </Layout>
+    <div className = {styles.contextMainContainer}>
+      <Layout>  
+        <section >
+          <Principal/>
+          <AboutMe/>
+          </section>
+      </Layout>
+    </div>
   )
 }

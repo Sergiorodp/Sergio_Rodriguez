@@ -29,18 +29,21 @@ export default function Layout({ children,tittle,navRef }){
                 <link rel="icon" href="/minilogo.ico" />
                 
             </Head>
+
+            <nav className = {styles.navigationContainer} ref = {back}><Nav/></nav>
+
+            <Lateral/>
+
             <main className={styles.main}>
-                <nav className = {styles.navigationContainer} ref = {back}><Nav/></nav>
-                <Lateral/>
                 <div className = {styles.contextContainer}>
                     {children}
                 </div>
             </main>
 
-            {/* 
-      <footer className={styles.footer}>
-        <p> Powered by Sergio Rodriguez</p>
-      </footer> */}
+            
+            <footer className={styles.footer}>
+                <p> Powered by Sergio Rodriguez</p>
+            </footer>
 
         </div>
     )
