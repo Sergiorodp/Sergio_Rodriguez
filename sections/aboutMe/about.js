@@ -4,7 +4,7 @@ import DesLayoyt from '../../components/description/index'
 export default function AboutMe(){
     return(
         <>
-        <section className = "main-aboutme-container">
+        <section className = "main-aboutme-container" id="AboutMe">
             <div className = "info-container">
                 <div className = "image-container">
                     <div className = "image-frame" >

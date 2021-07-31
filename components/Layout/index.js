@@ -8,18 +8,6 @@ import { createRef } from 'react'
 
 const back = createRef()
 
-export function Blur({inScreen}){
-    if(inScreen){
-        back.current.classList.add(styles.backNav)
-    }else{
-        try{
-            back.current.classList.remove(styles.backNav)
-        }catch{
-            console.log('nonblur')
-        }
-    }
-}
-
 export default function Layout({ children,tittle,navRef }){
 
     return(
@@ -30,8 +18,9 @@ export default function Layout({ children,tittle,navRef }){
                 
             </Head>
 
-            <nav className = {styles.navigationContainer} ref = {back}><Nav/></nav>
-
+            <nav className = {styles.navigationContainer} ref = {back}>
+                <Nav/>
+            </nav>
             <Lateral/>
 
             <main className={styles.main}>
@@ -41,10 +30,30 @@ export default function Layout({ children,tittle,navRef }){
             </main>
 
             
-            <footer className={styles.footer}>
-                <p> Powered by Sergio Rodriguez</p>
+            <footer className={styles.footer} id = "Contact">
+                <h3>Let´s talk</h3>
+                <form>
+
+                </form>
+                <p> aquí van las redes</p>
             </footer>
 
         </div>
     )
+}
+
+export function Blur({inScreen}){
+    if(inScreen){
+
+        back.current ? 
+        back.current.classList.add(styles.backNav) 
+        : console.log('omg')
+
+    }else{
+        try{
+            back.current.classList.remove(styles.backNav)
+        }catch{
+            console.log('nonblur')
+        }
+    }
 }

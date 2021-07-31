@@ -25,7 +25,7 @@ export default function Principal(){
 
     return(
         <>
-            <div className = {fondo.mainSectionContainer}>
+            <div className = {fondo.mainSectionContainer} id="Home">
                 {/* <SvgMain width = '1700px'/> */}
                 <section className = "principal-content-container" ref = {bloques}>
                     <div className = "tittle-container">
