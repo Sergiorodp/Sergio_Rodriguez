@@ -129,8 +129,35 @@
   margin-top: 3rem;
 } */
 
+@media (max-width: 1400) {
 
+  .footer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    /* background: crimson; */
+  }
 
-@media (max-width: 600px) {
+  .buttonContainer{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    /* background: chartreuse; */
+  }
+}
+
+@media (max-width: 900px) {
+  .footer{
+    min-height: 100vh;
+    grid-template-columns: none;
+      
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  }
+
+  .footer form{
+    width: 100%;
+  }
 
 }
