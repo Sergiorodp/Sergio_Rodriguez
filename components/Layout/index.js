@@ -5,7 +5,7 @@ import styles from '../../styles/Home.module.css'
 import Nav from '../../components/nav/index'
 import Lateral from '../../components/LateralBar/index'
 import { createRef } from 'react'
-import FormInput from '../formInput'
+import FormInput from 'components/formInput'
 import MyButton from '../button'
 
 // styles

@@ -159,5 +159,8 @@
   .footer form{
     width: 100%;
   }
-
+  
+  .footer h3{
+    font-size: 4.7rem;
+  }
 }
