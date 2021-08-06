@@ -5,6 +5,12 @@ import styles from '../../styles/Home.module.css'
 import Nav from '../../components/nav/index'
 import Lateral from '../../components/LateralBar/index'
 import { createRef } from 'react'
+import FormInput from '../formInput'
+import MyButton from '../button'
+
+// styles
+import { colorsShy } from 'components/styleLayout/index'
+
 
 const back = createRef()
 
@@ -31,11 +37,30 @@ export default function Layout({ children,tittle,navRef }){
 
             
             <footer className={styles.footer} id = "Contact">
-                <h3>Let´s talk</h3>
+                <div>
+                    <h3>Let´s talk</h3>
+                    <div className = {styles.buttonContainer}>
+                        <MyButton 
+                        background = {colorsShy.black} 
+                        color = {colorsShy.white}>
+                            <a href = '#aboutMe'> Download CV </a>
+                        </MyButton>
+                    </div>
+                </div>
                 <form>
+                    <FormInput
+                    label = 'Full Name'
+                    type = 'text'
+                    />
 
+                    <FormInput
+                    label = 'Mail'
+                    type = 'email'
+                    />
+                    <textarea placeholder = 'messaje'>
+
+                    </textarea>
                 </form>
-                <p> aquí van las redes</p>
             </footer>
 
         </div>
