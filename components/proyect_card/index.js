@@ -32,6 +32,7 @@ export default function ProyectCard({src, background = 'black'}){
                 height:300px;
                 border-radius:10px;
                 object-fit : cover;
+                display:flex;
             }
                 
                 `}</style>
