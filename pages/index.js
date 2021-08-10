@@ -8,6 +8,7 @@ import { Selected } from '../components/nav/index'
 
 import Principal from '../sections/main/main'
 import AboutMe from '../sections/aboutMe/about'
+import Proyects from 'sections/proyects'
 
 function ref(){
   const menuRef = [] 
@@ -47,10 +48,11 @@ export default function Home() {
   return (
     <div className = {styles.contextMainContainer}>
       <Layout>  
-        <section >
+        <div>
           <Principal/>
           <AboutMe/>
-          </section>
+          <Proyects/>
+        </div>
       </Layout>
     </div>
   )
