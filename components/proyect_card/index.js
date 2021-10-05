@@ -41,8 +41,8 @@ export default function ProyectCard({src, description = 'jijij', title = 'lol', 
             .image-frame img{
                 width: 100%;
                 position:relative;
-                left:10px;
-                top: 10px;
+                left:5px;
+                top: 5px;
                 border-radius: 10px;
                 object-fit:cover;
             }

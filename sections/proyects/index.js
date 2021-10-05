@@ -23,7 +23,7 @@ export default function Proyects(){
                         description = 'description proyect one'
                     />
                     <ProyectCard
-                        src = '/assets/Arbol@288x.png'
+                        src = '/assets/LETTERS-L4-GALLERY-2.png'
                         title = 'proyect-2'
                         description = 'description proyect two'
                     />
