@@ -28,6 +28,7 @@ export default css`
     align-items:center;
     color:${colorsShy.blue};
     z-index:701;
+    
 }
 
 .brand-container span{

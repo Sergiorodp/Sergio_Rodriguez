@@ -37,11 +37,13 @@ export default function Principal(){
 
                         <h2>Quality, Clarity & Creativity.</h2>
             
-                        <MyButton 
-                        background = {colorsShy.black} 
-                        color = {colorsShy.white}>
-                            <a href = '#aboutMe'> GET STARTED </a>
-                        </MyButton>
+                        <a href = '#AboutMe'>
+                            <MyButton 
+                            background = {colorsShy.black} 
+                            color = {colorsShy.white}>
+                                GET STARTED 
+                            </MyButton>
+                        </a>
                         </div>
                     </div>
                     <div className = "card-info-container">

@@ -74,9 +74,11 @@ export default function Nav(){
                 </ul>
             </div>
                 <div className = "footer" >
+                <a  href="#Contact" titte = "Contact">
                     <button>
-                        <a  href="#Contact" titte = "Contact"><span>Contact</span></a>
+                        <span>Contact</span>
                     </button>
+                </a>
                 </div>
             <div className = "lines-container">
                 <div className = "lines"> 
