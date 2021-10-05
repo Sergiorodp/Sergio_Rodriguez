@@ -43,7 +43,7 @@ export default function Layout({ children,tittle,navRef }){
                         <MyButton 
                         background = {colorsShy.black} 
                         color = {colorsShy.white}>
-                            <a href = '#aboutMe'> Download CV </a>
+                            <a href = '/assets/Sergio_Rodriguez_en_CV.pdf'> Open Resume </a>
                         </MyButton>
                     </div>
                 </div>

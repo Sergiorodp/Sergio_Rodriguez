@@ -10,7 +10,7 @@ export default function Proyects(){
 
             <div className = 'proyects-container'>
 
-                <div className = {'des-container'}>
+                <div className = 'des-container'>
                     <Description
                     title = 'My work'
                     info = 'IoT - AI - Embedded Systems'
@@ -88,6 +88,12 @@ export default function Proyects(){
                 justify-content:center;
             }
             
+            @media (max-width: 750px){
+
+                .des-container{
+                padding-left:8vw;    
+
+            }
             
             `}</style>
         </>
