@@ -40,11 +40,13 @@ export default function Layout({ children,tittle,navRef }){
                 <div>
                     <h3>Let´s talk</h3>
                     <div className = {styles.buttonContainer}>
+                    <a href = '/assets/Sergio_Rodriguez_en_CV.pdf'>
                         <MyButton 
                         background = {colorsShy.black} 
                         color = {colorsShy.white}>
-                            <a href = '/assets/Sergio_Rodriguez_en_CV.pdf'> Open Resume </a>
+                             Open Resume 
                         </MyButton>
+                    </a>
                     </div>
                 </div>
                 <form>
